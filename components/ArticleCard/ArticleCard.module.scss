@@ -1,0 +1,15 @@
+.cardwrapper {
+  max-width: 250px;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+
+  img {
+    width: 100%;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
